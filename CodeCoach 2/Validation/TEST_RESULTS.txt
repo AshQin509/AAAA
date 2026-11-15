@@ -1,0 +1,12 @@
+Full Xcode unavailable; running identical assertions with the portable runner.
+PASS parser
+PASS dedup, recurrence, project isolation and persistence
+PASS answer idempotency, stats and erase
+PASS saved content changes, exclusions, symlinks and deletion
+PASS source size limit
+PASS quiz validation and privacy payload
+PASS real javac, multiple files and Unicode paths
+PASS explicit dependencies and running compiler cancellation
+PASS invalid compiler and release
+PASS mock API structured output, privacy, HTTP errors, refusal and incomplete responses
+RESULT: 12 tests passed, 0 skipped, 0 assertion failures

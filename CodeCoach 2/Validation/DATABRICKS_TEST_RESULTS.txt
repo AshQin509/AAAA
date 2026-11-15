@@ -1,0 +1,21 @@
+Full Xcode unavailable; running identical assertions with the portable runner.
+PASS parser
+PASS dedup, recurrence, project isolation and persistence
+PASS answer idempotency, stats and erase
+PASS saved content changes, exclusions, symlinks and deletion
+PASS source size limit
+PASS quiz validation and privacy payload
+PASS real javac, multiple files and Unicode paths
+PASS explicit dependencies and running compiler cancellation
+PASS live buffer filename and rejected inputs
+PASS unsaved code checks and temporary source cleanup
+PASS click versus drag, return-to-origin and reset
+PASS invalid compiler and release
+PASS mock API structured output, privacy, HTTP errors, refusal and incomplete responses
+PASS Databricks request, model and anonymous quiz
+PASS GPT-OSS text blocks exclude reasoning
+PASS selected diagnostic privacy and explanation
+PASS sanitized HTTP failures and redirects
+PASS truncated and invalid model output
+PASS connection probe and invalid header
+RESULT: 21 tests passed, 0 skipped, 0 assertion failures
