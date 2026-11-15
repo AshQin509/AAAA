@@ -1,0 +1,1 @@
+Native window chrome: 12 assertions, 0 failures (no onscreen window or input injection)

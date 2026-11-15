@@ -1,0 +1,46 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+AAA000000000000000000001 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoach/ReasoningView.swift"; sourceTree = "<group>"; };
+BBB000000000000000000001 = { isa = PBXBuildFile; fileRef = AAA000000000000000000001; };
+AAA000000000000000000000 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoachCore/Reasoning.swift"; sourceTree = "<group>"; };
+BBB000000000000000000000 = { isa = PBXBuildFile; fileRef = AAA000000000000000000000; };
+0F29E570E24D6635DB115216 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoachCore/Databricks.swift"; sourceTree = "<group>"; };
+C01E0BB3C5A1E48ACBC46828 = { isa = PBXBuildFile; fileRef = 0F29E570E24D6635DB115216; };
+E35DB42D27BD25192CCA53E8 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoachCore/PointerGesture.swift"; sourceTree = "<group>"; };
+3172B8F99A689F330602537C = { isa = PBXBuildFile; fileRef = E35DB42D27BD25192CCA53E8; };
+9041254C619786245753D9C4 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoach/WindowChrome.swift"; sourceTree = "<group>"; };
+C9D7188DE58EE24F3C75E7FE = { isa = PBXBuildFile; fileRef = 9041254C619786245753D9C4; };
+29401FF29404FCB75F3C1A97 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoachCore/LiveSource.swift"; sourceTree = "<group>"; };
+2269D19BFFC961CE7A27523C = { isa = PBXBuildFile; fileRef = 29401FF29404FCB75F3C1A97; };
+A562D1CE73572CEC6F4C59B0 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoach/EditorReader.swift"; sourceTree = "<group>"; };
+51920703389AD67D89FC727F = { isa = PBXBuildFile; fileRef = A562D1CE73572CEC6F4C59B0; };
+663174E07566B681E8850A13 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoach/AppModel.swift"; sourceTree = "<group>"; };
+CB95B506E7C6D17CDB8A4DD4 = { isa = PBXBuildFile; fileRef = 663174E07566B681E8850A13; };
+492E849CA0F9C546F361B882 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoach/Main.swift"; sourceTree = "<group>"; };
+3E91CCF9D67A6A7167E916FC = { isa = PBXBuildFile; fileRef = 492E849CA0F9C546F361B882; };
+4FF512E877D76853020DF770 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoach/Views.swift"; sourceTree = "<group>"; };
+83790E7AD306FB9B6C52B385 = { isa = PBXBuildFile; fileRef = 4FF512E877D76853020DF770; };
+7F0CD867D826E655F5D35C30 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoachCore/Diagnostics.swift"; sourceTree = "<group>"; };
+218A79B2120C504C1BD0FE3D = { isa = PBXBuildFile; fileRef = 7F0CD867D826E655F5D35C30; };
+52399EA9252BE5E7EA970F7C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoachCore/Quiz.swift"; sourceTree = "<group>"; };
+2FD01149F73F3EE6D1B5DF65 = { isa = PBXBuildFile; fileRef = 52399EA9252BE5E7EA970F7C; };
+3A3F25F8F38448FD0ED2FAA1 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/CodeCoachCore/Store.swift"; sourceTree = "<group>"; };
+08AE708D0D2685961F27F921 = { isa = PBXBuildFile; fileRef = 3A3F25F8F38448FD0ED2FAA1; };
+7D1043473D55BFA90E8530D3 = { isa = PBXFileReference; explicitFileType = wrapper.application; path = CodeCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+0112DAE3F84CB4DF5179BE01 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+F8995BA5891B07E328C60D6B = { isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+74C2431FE30C4A47C8443B80 = { isa = PBXBuildFile; fileRef = F8995BA5891B07E328C60D6B; };
+64292B1C2B2E13EAD8788FC8 = { isa = PBXGroup; children = (AAA000000000000000000001,AAA000000000000000000000,0F29E570E24D6635DB115216,E35DB42D27BD25192CCA53E8,9041254C619786245753D9C4,29401FF29404FCB75F3C1A97,A562D1CE73572CEC6F4C59B0,663174E07566B681E8850A13,492E849CA0F9C546F361B882,4FF512E877D76853020DF770,7F0CD867D826E655F5D35C30,52399EA9252BE5E7EA970F7C,3A3F25F8F38448FD0ED2FAA1,0112DAE3F84CB4DF5179BE01,F8995BA5891B07E328C60D6B,FBDC4F23F93125BBEEAE800C); sourceTree = "<group>"; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (7D1043473D55BFA90E8530D3); name = Products; sourceTree = "<group>"; };
+BCE16DD0260827ECF338C787 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (BBB000000000000000000001,BBB000000000000000000000,C01E0BB3C5A1E48ACBC46828,3172B8F99A689F330602537C,C9D7188DE58EE24F3C75E7FE,2269D19BFFC961CE7A27523C,51920703389AD67D89FC727F,CB95B506E7C6D17CDB8A4DD4,3E91CCF9D67A6A7167E916FC,83790E7AD306FB9B6C52B385,218A79B2120C504C1BD0FE3D,2FD01149F73F3EE6D1B5DF65,08AE708D0D2685961F27F921); runOnlyForDeploymentPostprocessing = 0; };
+7561BFB015D8F536760CB671 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+0189424A5A60FED329FA868E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (74C2431FE30C4A47C8443B80); runOnlyForDeploymentPostprocessing = 0; };
+0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = C57128001CE614BF8549D6BB; buildPhases = (BCE16DD0260827ECF338C787,7561BFB015D8F536760CB671,0189424A5A60FED329FA868E); buildRules = (); dependencies = (); name = CodeCoach; productName = CodeCoach; productReference = 7D1043473D55BFA90E8530D3; productType = "com.apple.product-type.application"; };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+862894B703A6DEDF96A9DD6C = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178,E6DE6C99132752C914FEF632); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; PRODUCT_NAME = CodeCoach; PRODUCT_BUNDLE_IDENTIFIER = com.codecoach.mac; INFOPLIST_FILE = Info.plist; CODE_SIGN_STYLE = Automatic; CODE_SIGN_IDENTITY = "-"; ENABLE_APP_SANDBOX = NO; ENABLE_HARDENED_RUNTIME = YES; OTHER_LDFLAGS = "-lsqlite3"; SWIFT_EMIT_LOC_STRINGS = YES; COMBINE_HIDPI_IMAGES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; PRODUCT_NAME = CodeCoach; PRODUCT_BUNDLE_IDENTIFIER = com.codecoach.mac; INFOPLIST_FILE = Info.plist; CODE_SIGN_STYLE = Automatic; CODE_SIGN_IDENTITY = "-"; ENABLE_APP_SANDBOX = NO; ENABLE_HARDENED_RUNTIME = YES; OTHER_LDFLAGS = "-lsqlite3"; SWIFT_EMIT_LOC_STRINGS = YES; COMBINE_HIDPI_IMAGES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+C57128001CE614BF8549D6BB = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A,639A7CA24D39909E713B47F7); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastUpgradeCheck = 1600; }; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 64292B1C2B2E13EAD8788FC8; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }

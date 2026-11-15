@@ -1,0 +1,12 @@
+.DS_Store
+DerivedData/
+.build/
+build/
+xcuserdata/
+*.xcuserstate
+.env
+.env.*
+*.p8
+*.pem
+*.key
+Secrets.swift
