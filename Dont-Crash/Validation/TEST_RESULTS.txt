@@ -1,0 +1,85 @@
+Building for debugging...
+[1 / 10]
+[2 / 6] CodeCoachCoreTests-product
+[4 / 8] CodeCoachCoreTests-product
+[10 / 12] CodeCoachCoreTests-product
+[13 / 17] CodeCoach-product
+[16 / 20] CodeCoach-product
+[17 / 20] CodeCoach-product
+[19 / 20] CodeCoach-product
+Build complete! (1.84 sec)
+Test Suite 'All tests' started at 2026-11-14 23:38:16.430.
+Test Suite 'CodeCoachCoreTests.xctest' started at 2026-11-14 23:38:16.430.
+Test Suite 'CoreTests' started at 2026-11-14 23:38:16.430.
+Test Case '-[CodeCoachCoreTests.CoreTests testActualJavacValidBrokenMultipleFilesAndSpaces]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testActualJavacValidBrokenMultipleFilesAndSpaces]' passed (1.376 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testAnswerIdempotencyStatsAndErase]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testAnswerIdempotencyStatsAndErase]' passed (0.008 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testClasspathAndCancellation]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testClasspathAndCancellation]' passed (1.384 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testClickVersusDrag]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testClickVersusDrag]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testCurrentHistoryPartitionAndRecurrence]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testCurrentHistoryPartitionAndRecurrence]' passed (0.007 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testInvalidCompilerAndRelease]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testInvalidCompilerAndRelease]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testLegacyTopicMigrationPreservesAnswers]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testLegacyTopicMigrationPreservesAnswers]' passed (0.008 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testLiveSourceFilenameAndInputValidation]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testLiveSourceFilenameAndInputValidation]' passed (0.022 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testLiveSourceLineWithCRLF]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testLiveSourceLineWithCRLF]' passed (0.300 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testParserHandlesPathsSpacesUnicodeAndDeduplicates]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testParserHandlesPathsSpacesUnicodeAndDeduplicates]' passed (0.000 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testQuizValidationAndPrivacyPayload]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testQuizValidationAndPrivacyPayload]' passed (0.000 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testSnapshotDetectsSameSizeSaveAndIgnoresGeneratedAndSymlinks]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testSnapshotDetectsSameSizeSaveAndIgnoresGeneratedAndSymlinks]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testSnapshotLimit]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testSnapshotLimit]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testSourceLineLegacyDecodingAndFingerprint]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testSourceLineLegacyDecodingAndFingerprint]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testStoreDedupRecurrenceIsolationAndPersistence]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testStoreDedupRecurrenceIsolationAndPersistence]' passed (0.005 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testTopicSelectionAndLocalReferences]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testTopicSelectionAndLocalReferences]' passed (0.000 seconds).
+Test Case '-[CodeCoachCoreTests.CoreTests testUnsavedLiveSourceUsesSuppliedBufferAndCleansUp]' started.
+Test Case '-[CodeCoachCoreTests.CoreTests testUnsavedLiveSourceUsesSuppliedBufferAndCleansUp]' passed (0.601 seconds).
+Test Suite 'CoreTests' passed at 2026-11-14 23:38:20.150.
+	 Executed 17 tests, with 0 failures (0 unexpected) in 3.718 (3.719) seconds
+Test Suite 'DatabricksTests' started at 2026-11-14 23:38:20.150.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testConfiguredRequestAndAnonymousQuiz]' started.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testConfiguredRequestAndAnonymousQuiz]' passed (0.005 seconds).
+Test Case '-[CodeCoachCoreTests.DatabricksTests testConnectionAndInvalidTokenHeader]' started.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testConnectionAndInvalidTokenHeader]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.DatabricksTests testDiagnosticPreviewAndExplanation]' started.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testDiagnosticPreviewAndExplanation]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.DatabricksTests testGPTOSSBlocksExcludeReasoning]' started.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testGPTOSSBlocksExcludeReasoning]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.DatabricksTests testHTTPFailuresAreSanitized]' started.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testHTTPFailuresAreSanitized]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.DatabricksTests testIncompleteAndInvalidOutput]' started.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testIncompleteAndInvalidOutput]' passed (0.001 seconds).
+Test Case '-[CodeCoachCoreTests.DatabricksTests testOpenAIConnectionAndHeaderValidation]' started.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testOpenAIConnectionAndHeaderValidation]' passed (0.000 seconds).
+Test Case '-[CodeCoachCoreTests.DatabricksTests testOpenAIExplanationPrivacyAndEnglish]' started.
+Test Case '-[CodeCoachCoreTests.DatabricksTests testOpenAIExplanationPrivacyAndEnglish]' passed (0.000 seconds).
+Test Suite 'DatabricksTests' passed at 2026-11-14 23:38:20.159.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.009 (0.009) seconds
+Test Suite 'QuizClientTests' started at 2026-11-14 23:38:20.159.
+Test Case '-[CodeCoachCoreTests.QuizClientTests testAPIErrorDoesNotExposeResponseBody]' started.
+Test Case '-[CodeCoachCoreTests.QuizClientTests testAPIErrorDoesNotExposeResponseBody]' passed (0.000 seconds).
+Test Case '-[CodeCoachCoreTests.QuizClientTests testRefusalAndIncomplete]' started.
+Test Case '-[CodeCoachCoreTests.QuizClientTests testRefusalAndIncomplete]' passed (0.000 seconds).
+Test Case '-[CodeCoachCoreTests.QuizClientTests testStructuredResponseAndRequestPrivacy]' started.
+Test Case '-[CodeCoachCoreTests.QuizClientTests testStructuredResponseAndRequestPrivacy]' passed (0.000 seconds).
+Test Suite 'QuizClientTests' passed at 2026-11-14 23:38:20.161.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'CodeCoachCoreTests.xctest' passed at 2026-11-14 23:38:20.161.
+	 Executed 28 tests, with 0 failures (0 unexpected) in 3.728 (3.730) seconds
+Test Suite 'All tests' passed at 2026-11-14 23:38:20.161.
+	 Executed 28 tests, with 0 failures (0 unexpected) in 3.728 (3.731) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
